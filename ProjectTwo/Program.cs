@@ -2,11 +2,11 @@
 
 namespace ProjectTwo
 {
-    internal class Program
+    internal partial class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("Hello World!");
-        }
+        }       
     }
 }
