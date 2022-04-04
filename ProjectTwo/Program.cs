@@ -6,10 +6,6 @@ namespace ProjectTwo
 {
     internal partial class Program
     {
-        //public static List<Card> TodoList = new();
-        //public static List<Card> DoneList = new();
-        //public static List<Card> InProgressList = new();
-
         static void Main()
         {
             SampleData.Add(Board.TodoList);
