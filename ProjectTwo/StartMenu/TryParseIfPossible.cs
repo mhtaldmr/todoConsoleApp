@@ -10,7 +10,6 @@ namespace ProjectTwo
     {
         public static byte FromStringToByte(string stringToConvert)
         {
-            
             if (Byte.TryParse(stringToConvert, out byte byteValue))
                 return byteValue;
             else

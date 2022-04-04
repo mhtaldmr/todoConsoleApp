@@ -20,7 +20,7 @@ namespace ProjectTwo
                 
                 Console.Write("Atanan Kişi->Charles(1), Carlos(2), Max(3), Lewis(4), Daniel(5)  : ");
                 int atananKisiId = Convert.ToInt32(Console.ReadLine());
-
+                 
                 Console.Write("Büyüklük Seçiniz->XS(1), S(2), M(3), L(4), XL(5) :");
                 Büyüklük secilenBüyüklük = 0;
                 //secilenBüyüklük = (Büyüklük)(Convert.ToByte(Console.ReadLine()));

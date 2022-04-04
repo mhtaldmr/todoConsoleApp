@@ -14,7 +14,7 @@ namespace ProjectTwo
             while(input != 5)
             {
                 StartMenu.List();
-                input = int.Parse(Console.ReadLine());
+                input = TryParseIfPossible.FromStringToByte(Console.ReadLine());
 
                 Menu.Selector(input);
             }            
