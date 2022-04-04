@@ -23,6 +23,7 @@ namespace ProjectTwo
 
                 Console.Write("Büyüklük Seçiniz->XS(1), S(2), M(3), L(4), XL(5) :");
                 Büyüklük secilenBüyüklük = 0;
+                //secilenBüyüklük = (Büyüklük)(Convert.ToByte(Console.ReadLine()));
                 secilenBüyüklük = (Büyüklük)TryParseIfPossible.FromStringToByte(Console.ReadLine());
                 
                 
