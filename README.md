@@ -1,6 +1,3 @@
-
-
-
 # Todo List Console App
 
 This project is an basic Console App example.
@@ -34,12 +31,12 @@ In the project the main theme is a Todo list with a few options.
     {
         public static byte FromStringToByte(string stringToConvert)
         {
-            if (Byte.TryParse(stringToConvert, out byte byteValue))
-                return byteValue;
-            else
-                return 0;
-        }
+	if (Byte.TryParse(stringToConvert, out byte byteValue))
+		return byteValue;
+	else
+		return 0;
 	}
+    }
 ```
 
 ## Installation
