@@ -24,6 +24,7 @@ In the project the main theme is a Todo list with a few options.
 			Atanan = listToMoveTodo.Where(ct => ct.Baslık == cardTitle).FirstOrDefault().Atanan,
 			BüyüklükKodu = listToMoveTodo.Where(ct => ct.Baslık == cardTitle).FirstOrDefault().BüyüklükKodu
 		};
+	}
 ```
 - Parsing function
 ```c
